@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 11/14/2014 4:45:44 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 1/5/2015 5:10:28 PM
 
 BeginCmp
 TimeStamp = /545E8778;
@@ -11,35 +11,35 @@ BeginCmp
 TimeStamp = /54669D08;
 Reference = C2;
 ValeurCmp = 0.1uF;
-IdModule  = ;
+IdModule  = C2;
 EndCmp
 
 BeginCmp
 TimeStamp = /545E89A7;
 Reference = C3;
 ValeurCmp = 33pF;
-IdModule  = ;
+IdModule  = C2;
 EndCmp
 
 BeginCmp
 TimeStamp = /545E8A09;
 Reference = C4;
 ValeurCmp = 0.1uF;
-IdModule  = ;
+IdModule  = C2;
 EndCmp
 
 BeginCmp
 TimeStamp = /54669BC4;
 Reference = J1;
 ValeurCmp = BREAKOUT_BOARD_HEADER;
-IdModule  = SIL-6;
+IdModule  = SIL-5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54669DC4;
 Reference = J2;
 ValeurCmp = STEREO_MINI_JACK;
-IdModule  = ;
+IdModule  = 3.5mm_Stereo_Jack_SJ1-3523NG;
 EndCmp
 
 BeginCmp
