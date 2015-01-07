@@ -1,6 +1,6 @@
-update=1/5/2015 5:39:34 PM
+update=1/6/2015 2:29:10 PM
 version=1
-last_client=kicad
+last_client=pcbnew
 [cvpcb]
 version=1
 NetIExt=net
@@ -46,6 +46,8 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=msgeq7
+[general]
+version=1
 [pcbnew]
 version=1
 LastNetListRead=
@@ -84,5 +86,12 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=MSGEQ7_Breakout_Board_Footprints
-[general]
-version=1
+LibName18=C:/Users/Daniel/Dropbox/Circuit Design/KiCad Component Libraries/Logos/Logo_RH_Circle_R_FSilkS_200mil
+LibName19=C:/Users/Daniel/Dropbox/Circuit Design/KiCad Component Libraries/Logos/Logo_RH_Circle_R_BSilkS_200mil_flipped
+LibName20=C:/Users/Daniel/Dropbox/Circuit Design/KiCad Component Libraries/Logos/Logo_RH_Circle_R_BSilkS_100mil_flipped
+LibName21=C:/Users/Daniel/Dropbox/Circuit Design/KiCad Component Libraries/Logos/Logo_RH_Circle_R_BCu_200mil_flipped
+LibName22=C:/Users/Daniel/Dropbox/Circuit Design/KiCad Component Libraries/Logos/Logo_RH_Circle_R_BMask_200mil_flipped
+LibName23=C:/Users/Daniel/Dropbox/Circuit Design/KiCad Component Libraries/Logos/Logo_RH_Solo_R_BCu_200mil_flipped
+LibName24=C:/Users/Daniel/Dropbox/Circuit Design/KiCad Component Libraries/Logos/Logo_RH_Solo_R_BMask_200mil_flipped
+LibName25=C:/Users/Daniel/Dropbox/Circuit Design/KiCad Component Libraries/Logos/Logo_RH_Circle_R_BSilkS_250mil_flipped
+LibName26=C:/Users/Daniel/Dropbox/Circuit Design/KiCad Component Libraries/Logos/Logo_RH_Circle_R_FSilkS_250mil
