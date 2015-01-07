@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "MSGEQ7 Breakout Board"
-Date "13 dec 2014"
+Date "7 jan 2015"
 Rev "A"
 Comp "Rheingold Heavy"
 Comment1 "Breakout board for the Mixed Signals Integration MSGEQ7"
@@ -52,7 +52,9 @@ P 6150 3950
 F 0 "U1" H 6450 3300 60  0000 C CNN
 F 1 "MSGEQ7" H 6150 3950 60  0000 C CNN
 F 2 "" H 5900 3950 60  0000 C CNN
-F 3 "" H 5900 3950 60  0000 C CNN
+F 3 "http://www.mix-sig.com/images/datasheets/MSGEQ7.pdf" H 5900 3950 60  0001 C CNN
+F 4 "Mixed Signal Integration" H 6150 3950 60  0001 C CNN "MFG Name"
+F 5 "MSGEQ7" H 6150 3950 60  0001 C CNN "MFG Part Num"
 	1    6150 3950
 	1    0    0    -1  
 $EndComp
@@ -63,7 +65,9 @@ P 6850 3100
 F 0 "R1" V 6930 3100 40  0000 C CNN
 F 1 "200K" V 6850 3100 40  0000 C CNN
 F 2 "~" V 6780 3100 30  0000 C CNN
-F 3 "~" H 6850 3100 30  0000 C CNN
+F 3 "https://www.seielect.com/catalog/SEI-CF_CFM.pdf" H 6850 3100 30  0001 C CNN
+F 4 "Stackpole" H 6850 3100 60  0001 C CNN "MFG Name"
+F 5 "CF14JT200K" H 6850 3100 60  0001 C CNN "MFG Part Num"
 	1    6850 3100
 	-1   0    0    1   
 $EndComp
@@ -89,7 +93,9 @@ P 5300 3500
 F 0 "C1" V 5350 3350 40  0000 L CNN
 F 1 "0.1uF" V 5175 3425 40  0000 L CNN
 F 2 "~" H 5338 3350 30  0000 C CNN
-F 3 "~" H 5300 3500 60  0000 C CNN
+F 3 "http://datasheet.octopart.com/K103K15X7RF53L2-Vishay-datasheet-20674387.pdf" H 5300 3500 60  0001 C CNN
+F 4 "Vishay" H 5300 3500 60  0001 C CNN "MFG Name"
+F 5 "K103K15X7RF53L2" H 5300 3500 60  0001 C CNN "MFG Part Num"
 	1    5300 3500
 	0    -1   -1   0   
 $EndComp
@@ -108,7 +114,9 @@ P 7150 3500
 F 0 "C3" V 7200 3350 40  0000 L CNN
 F 1 "33pF" V 7025 3425 40  0000 L CNN
 F 2 "~" H 7188 3350 30  0000 C CNN
-F 3 "~" H 7150 3500 60  0000 C CNN
+F 3 "http://datasheet.octopart.com/K330J15C0GF5TL2-Vishay-datasheet-13562638.pdf" H 7150 3500 60  0001 C CNN
+F 4 "Vishay" H 7150 3500 60  0001 C CNN "MFG Name"
+F 5 "K330J15C0GF5TL2" H 7150 3500 60  0001 C CNN "MFG Part Num"
 	1    7150 3500
 	0    -1   -1   0   
 $EndComp
@@ -120,17 +128,6 @@ Wire Wire Line
 	5700 4100 5025 4100
 Text GLabel 5025 4400 0    50   Input ~ 0
 STROBE
-$Comp
-L C C4
-U 1 1 545E8A09
-P 7150 4100
-F 0 "C4" V 7200 3950 40  0000 L CNN
-F 1 "0.1uF" V 7025 4025 40  0000 L CNN
-F 2 "~" H 7188 3950 30  0000 C CNN
-F 3 "~" H 7150 4100 60  0000 C CNN
-	1    7150 4100
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6950 4100 6600 4100
 Wire Wire Line
@@ -146,19 +143,10 @@ P 7900 4650
 F 0 "R2" V 7980 4650 40  0000 C CNN
 F 1 "22K" V 7900 4650 40  0000 C CNN
 F 2 "~" V 7830 4650 30  0000 C CNN
-F 3 "~" H 7900 4650 30  0000 C CNN
+F 3 "https://www.seielect.com/catalog/SEI-CF_CFM.pdf" H 7900 4650 30  0001 C CNN
+F 4 "Stackpole" H 7900 4650 60  0001 C CNN "MFG Name"
+F 5 "CF14JT22K0" H 7900 4650 60  0001 C CNN "MFG Part Num"
 	1    7900 4650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R3
-U 1 1 545E8AC6
-P 7900 4850
-F 0 "R3" V 7980 4850 40  0000 C CNN
-F 1 "22K" V 7900 4850 40  0000 C CNN
-F 2 "~" V 7830 4850 30  0000 C CNN
-F 3 "~" H 7900 4850 30  0000 C CNN
-	1    7900 4850
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -211,7 +199,9 @@ P 3250 3950
 F 0 "J1" H 3250 3500 50  0000 C CNN
 F 1 "BREAKOUT_BOARD_HEADER" V 3000 3950 50  0000 C CNN
 F 2 "" H 3400 4100 60  0000 C CNN
-F 3 "" H 3400 4100 60  0000 C CNN
+F 3 "http://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 3400 4100 60  0001 C CNN
+F 4 "Sullins Connector" H 3250 3950 60  0001 C CNN "MFG Name"
+F 5 "PREC040SAAN-RC" H 3250 3950 60  0001 C CNN "MFG Part Num"
 	1    3250 3950
 	1    0    0    -1  
 $EndComp
@@ -227,17 +217,6 @@ Wire Wire Line
 	7450 4650 7450 4850
 Wire Wire Line
 	7450 4750 7350 4750
-$Comp
-L C C2
-U 1 1 54669D08
-P 7150 4750
-F 0 "C2" V 7200 4600 40  0000 L CNN
-F 1 "0.1uF" V 7025 4675 40  0000 L CNN
-F 2 "~" H 7188 4600 30  0000 C CNN
-F 3 "~" H 7150 4750 60  0000 C CNN
-	1    7150 4750
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6750 4750 6950 4750
 Wire Wire Line
@@ -250,7 +229,9 @@ P 8650 4850
 F 0 "J2" H 8800 4500 60  0000 C CNN
 F 1 "STEREO_MINI_JACK" H 8650 5200 60  0000 C CNN
 F 2 "" H 8750 4850 60  0000 C CNN
-F 3 "" H 8750 4850 60  0000 C CNN
+F 3 "http://www.cui.com/product/resource/sj1-352xng-series.pdf" H 8750 4850 60  0001 C CNN
+F 4 "CUI Inc" H 8650 4850 60  0001 C CNN "MFG Name"
+F 5 "SJ1-3523NG" H 8650 4850 60  0001 C CNN "MFG Part Num"
 	1    8650 4850
 	1    0    0    -1  
 $EndComp
@@ -351,4 +332,43 @@ Wire Wire Line
 	8200 5050 8200 5200
 Wire Notes Line
 	8600 5300 8600 5650
+$Comp
+L C C2
+U 1 1 54AD6E03
+P 7150 4750
+F 0 "C2" V 7200 4600 40  0000 L CNN
+F 1 "0.1uF" V 7025 4675 40  0000 L CNN
+F 2 "~" H 7188 4600 30  0000 C CNN
+F 3 "http://datasheet.octopart.com/K103K15X7RF53L2-Vishay-datasheet-20674387.pdf" H 7150 4750 60  0001 C CNN
+F 4 "Vishay" H 7150 4750 60  0001 C CNN "MFG Name"
+F 5 "K103K15X7RF53L2" H 7150 4750 60  0001 C CNN "MFG Part Num"
+	1    7150 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C4
+U 1 1 54AD6E2B
+P 7150 4100
+F 0 "C4" V 7200 3950 40  0000 L CNN
+F 1 "0.1uF" V 7025 4025 40  0000 L CNN
+F 2 "~" H 7188 3950 30  0000 C CNN
+F 3 "http://datasheet.octopart.com/K103K15X7RF53L2-Vishay-datasheet-20674387.pdf" H 7150 4100 60  0001 C CNN
+F 4 "Vishay" H 7150 4100 60  0001 C CNN "MFG Name"
+F 5 "K103K15X7RF53L2" H 7150 4100 60  0001 C CNN "MFG Part Num"
+	1    7150 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 54AD6E77
+P 7900 4850
+F 0 "R3" V 7980 4850 40  0000 C CNN
+F 1 "22K" V 7900 4850 40  0000 C CNN
+F 2 "~" V 7830 4850 30  0000 C CNN
+F 3 "https://www.seielect.com/catalog/SEI-CF_CFM.pdf" H 7900 4850 30  0001 C CNN
+F 4 "Stackpole" H 7900 4850 60  0001 C CNN "MFG Name"
+F 5 "CF14JT22K0" H 7900 4850 60  0001 C CNN "MFG Part Num"
+	1    7900 4850
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

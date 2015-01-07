@@ -1,6 +1,6 @@
-update=1/6/2015 2:29:10 PM
+update=1/7/2015 9:36:44 AM
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -46,8 +46,6 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=msgeq7
-[general]
-version=1
 [pcbnew]
 version=1
 LastNetListRead=
@@ -95,3 +93,5 @@ LibName23=C:/Users/Daniel/Dropbox/Circuit Design/KiCad Component Libraries/Logos
 LibName24=C:/Users/Daniel/Dropbox/Circuit Design/KiCad Component Libraries/Logos/Logo_RH_Solo_R_BMask_200mil_flipped
 LibName25=C:/Users/Daniel/Dropbox/Circuit Design/KiCad Component Libraries/Logos/Logo_RH_Circle_R_BSilkS_250mil_flipped
 LibName26=C:/Users/Daniel/Dropbox/Circuit Design/KiCad Component Libraries/Logos/Logo_RH_Circle_R_FSilkS_250mil
+[general]
+version=1
