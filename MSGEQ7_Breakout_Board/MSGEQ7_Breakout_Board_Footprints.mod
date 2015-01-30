@@ -1,11 +1,11 @@
-PCBNEW-LibModule-V1  1/7/2015 9:21:57 AM
+PCBNEW-LibModule-V1  1/7/2015 1:51:44 PM
 # encoding utf-8
 Units mm
 $INDEX
 3.5mm_Stereo_Jack_SJ1-3523NG
 $EndINDEX
 $MODULE 3.5mm_Stereo_Jack_SJ1-3523NG
-Po 0 0 0 15 54AD6AD2 00000000 ~~
+Po 0 0 0 15 54ADAA66 00000000 ~~
 Li 3.5mm_Stereo_Jack_SJ1-3523NG
 Sc 0
 AR /54669DC4
@@ -27,22 +27,22 @@ DS -4.5 -2 -3.3 -2 0.15 21
 DS -3.3 -2 -3.3 2 0.15 21
 DS -3.3 2 -4.5 2 0.15 21
 $PAD
-Sh "1" C 3.9 3.9 0 0 0
-Dr 2.9 0 0
+Sh "1" C 2.9 2.9 0 0 0
+Dr 1.9 0 0
 At STD N 00E0FFFF
 Ne 1 "GND"
 Po 0 0
 $EndPAD
 $PAD
-Sh "2" C 3.9 3.9 0 0 0
-Dr 2.9 0 0
+Sh "2" C 2.9 2.9 0 0 0
+Dr 1.9 0 0
 At STD N 00E0FFFF
 Ne 2 "N-000002"
 Po 5 5
 $EndPAD
 $PAD
-Sh "3" C 3.9 3.9 0 0 0
-Dr 2.9 0 0
+Sh "3" C 2.9 2.9 0 0 0
+Dr 1.9 0 0
 At STD N 00E0FFFF
 Ne 3 "N-000006"
 Po 5 -5
