@@ -1,5 +1,53 @@
-update=10/27/2015 10:11:54 PM
-last_client=kicad
+update=1/29/2015 5:09:13 PM
+version=1
+last_client=pcbnew
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
+[eeschema]
+version=1
+LibDir=
+NetFmtName=
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
+[eeschema/libraries]
+LibName1=power
+LibName2=device
+LibName3=transistors
+LibName4=conn
+LibName5=linear
+LibName6=regul
+LibName7=74xx
+LibName8=cmos4000
+LibName9=adc-dac
+LibName10=memory
+LibName11=xilinx
+LibName12=special
+LibName13=microcontrollers
+LibName14=dsp
+LibName15=microchip
+LibName16=analog_switches
+LibName17=motorola
+LibName18=texas
+LibName19=intel
+LibName20=audio
+LibName21=interface
+LibName22=digital-audio
+LibName23=philips
+LibName24=display
+LibName25=cypress
+LibName26=siliconi
+LibName27=opto
+LibName28=atmel
+LibName29=contrib
+LibName30=valves
+LibName31=msgeq7
+[general]
+version=1
 [pcbnew]
 version=1
 LastNetListRead=MSGEQ7_Breakout_Board.net
@@ -40,14 +88,3 @@ LibName16=valves
 LibName17=MSGEQ7_Breakout_Board_Footprints
 LibName18=C:/Users/Daniel/Dropbox/Circuit Design/KiCad Component Libraries/Logos/Logo_RH_Circle_R_FCu_200mil
 LibName19=C:/Users/Daniel/Dropbox/Circuit Design/KiCad Component Libraries/Logos/Logo_RH_Circle_R_FMask_200mil
-LibName20=C:/Users/Daniel/Dropbox/Circuit Design/KiCad Component Libraries/Logos/Logo_RH_Circle_R_BSilkS_750mil_flipped
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=msgeq7
-LibName2=conn
-LibName3=device
-LibName4=power
-[general]
-version=1

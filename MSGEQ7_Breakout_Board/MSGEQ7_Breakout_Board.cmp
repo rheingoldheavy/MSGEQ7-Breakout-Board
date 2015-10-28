@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 1/5/2015 5:10:28 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 1/29/2015 4:55:01 PM
 
 BeginCmp
 TimeStamp = /545E8778;
@@ -18,7 +18,7 @@ BeginCmp
 TimeStamp = /545E89A7;
 Reference = C3;
 ValeurCmp = 33pF;
-IdModule  = C2;
+IdModule  = C1;
 EndCmp
 
 BeginCmp
@@ -32,7 +32,7 @@ BeginCmp
 TimeStamp = /54669BC4;
 Reference = J1;
 ValeurCmp = BREAKOUT_BOARD_HEADER;
-IdModule  = SIL-5;
+IdModule  = PIN_ARRAY_5x1;
 EndCmp
 
 BeginCmp
@@ -46,21 +46,21 @@ BeginCmp
 TimeStamp = /545E86CD;
 Reference = R1;
 ValeurCmp = 200K;
-IdModule  = R3;
+IdModule  = PTH_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /545E8ABB;
 Reference = R2;
 ValeurCmp = 22K;
-IdModule  = R3;
+IdModule  = PTH_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /545E8AC6;
 Reference = R3;
 ValeurCmp = 22K;
-IdModule  = R3;
+IdModule  = PTH_Resistor;
 EndCmp
 
 BeginCmp
